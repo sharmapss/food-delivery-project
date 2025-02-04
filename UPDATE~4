@@ -4,7 +4,7 @@ document.querySelector('form').addEventListener('submit', function(event) {
 
    let formData = new FormData(this);
 
-   fetch('https://api.example.com/update-address', {
+  fetch('https://api.example.com/update-address?api_key=216f8a75fd5bb3d5f22b6f9958cdede3fc086c2EY', {
       method: 'POST',
       body: formData
    })
